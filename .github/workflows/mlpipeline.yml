@@ -13,7 +13,12 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-
+      - name: Debug - List Files
+        run: |
+          echo "Current Directory:"
+          pwd
+          echo "Files:"
+          ls -R
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
