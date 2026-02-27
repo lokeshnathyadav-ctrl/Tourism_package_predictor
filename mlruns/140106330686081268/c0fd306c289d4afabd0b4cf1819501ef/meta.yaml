@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/140106330686081268/c0fd306c289d4afabd0b4cf1819501ef/artifacts
+end_time: 1772217665265
+entry_point_name: ''
+experiment_id: '140106330686081268'
+lifecycle_stage: active
+run_id: c0fd306c289d4afabd0b4cf1819501ef
+run_name: funny-bird-290
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772217660601
+status: 3
+tags: []
+user_id: B LOKESHNATH YADAV

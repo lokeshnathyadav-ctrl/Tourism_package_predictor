@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/140106330686081268/68df6d532ff948cb94bfe817bd0d5a12/artifacts
+end_time: 1772217695577
+entry_point_name: ''
+experiment_id: '140106330686081268'
+lifecycle_stage: active
+run_id: 68df6d532ff948cb94bfe817bd0d5a12
+run_name: orderly-loon-433
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772217691067
+status: 3
+tags: []
+user_id: B LOKESHNATH YADAV

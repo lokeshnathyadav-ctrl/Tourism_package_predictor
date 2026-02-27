@@ -35,11 +35,17 @@ import mlflow
 
 # Setting the tracking URL for MLflow & defining name of the experiment
 #mlflow.set_tracking_uri("https://localhost:5000")
-base_dir = os.getcwd()
-mlruns_path = os.path.join(base_dir,"mlruns")
-print("Creating mlruns at:", mlruns_path)
+if "GITHUB_WORKSPACE" in os.environ:
+    base_path = os.environ["GITHUB_WORKSPACE"]
+else:
+    base_path = os.getcwd()
 
-mlflow.set_tracking_uri(f"file:{mlruns_path}")
+
+#base_dir = os.getcwd()
+#mlruns_path = os.path.join(base_dir,"mlruns")
+#print("Creating mlruns at:", mlruns_path)
+
+mlflow.set_tracking_uri(f"file:{os.path.join(base_path,'mlruns')}")
 mlflow.set_experiment("mlops-training-experiment")
                                     
 api = HfApi(token=os.getenv("HF_TOKE"))        # Initialize API client

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/140106330686081268/c04cebfa1a8440c08d87601307971bd4/artifacts
+end_time: 1772217659379
+entry_point_name: ''
+experiment_id: '140106330686081268'
+lifecycle_stage: active
+run_id: c04cebfa1a8440c08d87601307971bd4
+run_name: flawless-toad-102
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772217654577
+status: 3
+tags: []
+user_id: B LOKESHNATH YADAV
