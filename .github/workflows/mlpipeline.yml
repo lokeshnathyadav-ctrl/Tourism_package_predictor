@@ -77,11 +77,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r tourism_project/requirements.txt
           pip install mlflow
-
-      - name: Start MLflow Server
-        run: |
-          nohup mlflow ui --host 0.0.0.0 --port 5000 &
-          sleep 10
+      - name: Upload ML flow artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: mlruns
+          path: mlruns/
 
       - name: Model Building
         env:
