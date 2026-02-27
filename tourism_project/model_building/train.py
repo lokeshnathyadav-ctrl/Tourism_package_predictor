@@ -35,7 +35,7 @@ import mlflow
 
 # Setting the tracking URL for MLflow & defining name of the experiment
 mlflow.set_tracking_uri("https://localhost:5000")
-mlflow.set_experiment("MLOps-Experiment-B62")
+mlflow.set_experiment("mlops-training-experiment")
                                     
 api = HfApi(token=os.getenv("HF_TOKE"))        # Initialize API client
 
