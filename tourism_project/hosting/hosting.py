@@ -5,7 +5,7 @@ import os
 
 # Define user credentials for HF Hub
 api=HfApi(token=os.getenv("HF_TOKE")
-repo_id = "Lokeshnathy/TOURIST-PURCHASE-PREDICTION-SPACE"
+repo_id = "Lokeshnathy/TOURIST-PACKAGE-PREDICTOR-SPACE"
 repo_type="space"
 
 # Uploads the required deployment files to HF Hub
