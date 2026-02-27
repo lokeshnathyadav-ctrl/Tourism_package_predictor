@@ -10,6 +10,6 @@ repo_type="space"
 
 # Uploads the required deployment files to HF Hub
 api.upload_folder(
-    folder_path = "D:/tourism_project/deployment", 
+    folder_path = "tourism_project/deployment", 
     repo_id = repo_id,
     repo_type = repo_type)

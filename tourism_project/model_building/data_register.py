@@ -26,6 +26,6 @@ except RepositoryNotFoundError:
 
 # Uploads the data to Hugging Face Hub 
 api.upload_folder(
-    folder_path="D:/tourism_project/data",
+    folder_path="tourism_project/data",
     repo_id=repo_id,
     repo_type=repo_type)
