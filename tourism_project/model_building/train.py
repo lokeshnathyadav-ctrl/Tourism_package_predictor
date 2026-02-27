@@ -81,7 +81,7 @@ preprocessor = make_column_transformer(
     (OneHotEncoder(handle_unknown='ignore',drop='first'),categorical_features))
 
 # Defining base Gradient Boosting estimator
-gb_model = GradientBoostingRegressor(random_state=42)
+gb_model = GradientBoostingClassifier(random_state=42)
 
 # Defining Hyperparameter grid
 param_grid = {
