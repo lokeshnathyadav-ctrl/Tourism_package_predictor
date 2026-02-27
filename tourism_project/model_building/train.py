@@ -36,7 +36,8 @@ import mlflow
 # Setting the tracking URL for MLflow & defining name of the experiment
 #mlflow.set_tracking_uri("https://localhost:5000")
 base_dir = os.getcwd()
-mlruns_path = os.path(base_dir,"mlruns")
+mlruns_path = os.path.join(base_dir,"mlruns")
+print("Creating mlruns at:", mlruns_path)
 
 mlflow.set_tracking_uri(f"file:{mlruns_path}")
 mlflow.set_experiment("mlops-training-experiment")
