@@ -9,7 +9,7 @@ import os
 import requests
 
 # Defining user credintials for accessing Hugging Face Hub
-repo_id = "Lokeshnathy/Tourism_package_data"              # repo id
+repo_id = "Lokeshnathy/Tourism-package-data"              # repo id
 repo_type = "dataset"                                     # repo Type = 'Dataset'
 
 # Initialize API client
