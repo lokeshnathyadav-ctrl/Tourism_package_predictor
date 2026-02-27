@@ -30,6 +30,8 @@ import requests
 # Hugging face authentication to upload files
 from huggingface_hub import login, HfApi, create_repo
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
+# importing mlflow for experimentation & tracking
+import mlflow
 
 # Setting the tracking URL for MLflow & defining name of the experiment
 mlflow.set_tracking_uri("https://localhost:5000")
