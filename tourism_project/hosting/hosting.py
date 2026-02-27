@@ -4,7 +4,7 @@ from huggingface_hub import HfApi
 import os
 
 # Define user credentials for HF Hub
-api=HfApi(token=os.getenv("HF_TOKE")
+api=HfApi(token=os.getenv("HF_TOKE"))
 repo_id = "Lokeshnathy/TOURIST-PACKAGE-PREDICTOR-SPACE"
 repo_type="space"
 
