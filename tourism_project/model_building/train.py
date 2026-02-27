@@ -34,7 +34,8 @@ from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 import mlflow
 
 # Setting the tracking URL for MLflow & defining name of the experiment
-mlflow.set_tracking_uri("https://localhost:5000")
+#mlflow.set_tracking_uri("https://localhost:5000")
+mlflow.set_tracking_uri("file:./mlruns")
 mlflow.set_experiment("mlops-training-experiment")
                                     
 api = HfApi(token=os.getenv("HF_TOKE"))        # Initialize API client
